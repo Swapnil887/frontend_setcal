@@ -13,7 +13,7 @@ const onLogin = async () => {
     console.log(payload)
   
   try {
-    let url = "http://localhost:8090/user/login";
+    let url = "https://cute-gray-ant-slip.cyclic.app/user/login";
   
       let responce = await fetch(url, {
         method: "POST",
